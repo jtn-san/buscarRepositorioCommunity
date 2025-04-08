@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buscar Comunidade</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <button class="theme-toggle" onclick="toggleTheme()" id="themeIcon">🌙</button>
+      
+      <h1>🔍 Buscar Arquivo na Comunidade</h1>
+      <p>Digite o nome do arquivo (ex: <code>jtn-san.md</code>)</p>
+      <input type="text" id="fileName" placeholder="Digite o nome do arquivo" />
+      <button onclick="searchFile()">Buscar</button>
+    </div>
+
+    <footer>
+      Desenvolvido por <a href="https://github.com/jtn-san" target="_blank">@jtn-san</a>
+    </footer>
+  </div>
+
+  <script>
+    function searchFile() {
+      const file = document.getElementById("fileName").value.trim();
+      if (file) {
+        const baseUrl = "https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/community/";
+        window.open(baseUrl + file, "_blank");
+      } else {
+        alert("Digite um nome de arquivo!");
+      }
+    }
+
+    function toggleTheme() {
+      document.body.classList.toggle("light");
+      const icon = document.getElementById("themeIcon");
+      icon.textContent = document.body.classList.contains("light") ? "☀️" : "🌙";
+    }
+  </script>
+</body>
+</html>
