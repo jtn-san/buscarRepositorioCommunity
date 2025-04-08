@@ -15,12 +15,25 @@ Este projeto permite que qualquer pessoa busque rapidamente arquivos `.md` dentr
 
 ---
 
+## 🔍 Buscar seu Arquivo na Comunidade(Community)
+
+Você pode acessar diretamente o seu arquivo no repositório da DIO!  
+Basta digitar o nome do arquivo (ex: `jtn-san.md`) na página abaixo:
+
+### 💡 Exemplo da página:
+
+![Preview do buscador](docs/preview.png)
+
 ## 💡 Como usar
 
 1. Acesse a página.
 2. Digite o nome do arquivo `.md` correspondente ao usuário (exemplo: `jtn-san.md`).
 3. Clique em **"Buscar"**.
 4. O link abrirá diretamente no GitHub no arquivo correspondente.
+
+> 🔁 Substitua pelo nome do seu arquivo e clique em **Buscar**!
+
+[![Ir para Buscador](https://img.shields.io/badge/Acessar%20Buscador-blue?style=for-the-badge)](https://jtn-san.github.io/buscarRepositorioCommunity/)
 
 ---
 
