@@ -63,7 +63,3 @@ Sinta-se à vontade para contribuir com melhorias, estilos, animações ou tradu
 Feito com ❤️ por [@jtn-san](https://github.com/jtn-san)
 
 ---
-
-## 📄 Licença
-
-MIT License
