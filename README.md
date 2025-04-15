@@ -11,7 +11,7 @@ Uma página simples e elegante para acessar diretamente os arquivos da comunidad
 Este projeto permite que qualquer pessoa busque rapidamente arquivos `.md` dentro da pasta `community` do repositório principal da DIO, apenas digitando o nome do usuário/arquivo.
 
 👉 **Acesse a versão online:**  
-[https://jtn-san.github.io/buscarRepositorioCommunity/](https://jtn-san.github.io/buscarRepositorioCommunity/)
+[Buscar seu repositório em 'Community'](https://jtn-san.github.io/buscarRepositorioCommunity/)
 
 ---
 
